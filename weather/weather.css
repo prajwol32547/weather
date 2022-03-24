@@ -1,0 +1,156 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+#section1{
+	height:100vh;
+
+    background:skyblue;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	margin:0px;
+	padding:0px;
+
+
+	}
+	.result{
+		display:flex;
+		background-color: transparent;
+		height:40px;
+		align-items:center;
+		justify-content: center;
+		color:black;
+		font-weight: 200;
+
+
+	}
+	.pending{
+		display:flex;
+		background-color: lightblue;
+		height:40px;
+		align-items:center;
+		justify-content: center;
+		color:black;
+		font-weight: 200;
+
+	}
+	.error{
+
+		display:flex;
+		background-color: #ec4d4d;
+		height:40px;
+		align-items:center;
+		justify-content: center;
+		color:white;
+		font-weight: 200;
+
+	
+	}
+	.one{
+       
+		background-color: white;
+		border:2px solid black;
+		height: 100%
+		width:100%;
+		padding:20px;
+		z-index:20;
+		border-radius:7px;
+		box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+
+	h2{
+		font-family:helvetica;
+		border-bottom: 3px solid black;
+	}
+	input[type="text"]{
+		margin-top:20px;
+		padding:10px;
+		border-radius:7px;
+		margin-bottom:10px;
+		width:270px;
+	}
+	
+	.location{
+		background:skyblue;
+		display:flex;
+		height:40px;
+		align-items:center;
+		justify-content: center;
+		color:whitesmoke;
+		font-weight: 500;
+		margin-top:50px;
+		width:270px;
+	}
+	
+	.two{
+       display: none;
+		background-color: white;
+		height: 100%
+		width:100%;
+		padding:20px;
+		border-radius:7px;
+		box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+.wrap{
+	display:flex;
+	flex-direction: row;
+	margin-top:20px;
+}
+.feel{
+	border-top:2px solid black;
+	border-right:1px solid black;
+	padding:20px;
+}
+.humid{
+	border-top:2px solid black;
+	border-left:1px solid black;
+	padding:20px;
+}
+#image{
+	width:200px;
+	height:200px;
+
+    
+}
+
+#temp{
+	font-size:2em;
+	font-weight:500;
+	font-style:bold;
+	font-family:helvetica;
+}
+#weat{
+	font-size:1em;
+	font-weight:500;
+	font-style:bold;
+	font-family:helvetica;
+}
+#loc{
+	font-size:1em;
+	font-weight:500;
+	font-style:bold;
+	font-family:helvetica;
+}
+.feel{
+	background-color: #e2e296;
+	font-size:1.5em;
+	font-weight:500;
+	font-style:bold;
+	font-family:helvetica;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.humid{
+	background-color: lightblue;
+	font-size:1.5em;
+	font-weight:500;
+	font-style:bold;
+	font-family:helvetica;
+	box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#back:hover{
+	cursor:pointer;
+margin-right:10px;
+transition: ease .5s;
+}
